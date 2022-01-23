@@ -19,9 +19,7 @@ int main()
         }else if(arr[mid] > el) {
             ans = arr[mid];
             e = mid - 1;
-        }else {
-            s = mid + 1;
-        }
+        }else s = mid + 1;
         
     }
 cout<<ans<<endl;

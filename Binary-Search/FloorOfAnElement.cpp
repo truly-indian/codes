@@ -4,10 +4,10 @@ using namespace std;
 int main()
 { // program to find floor of an element.
 
-    int arr[] = {1, 2, 3, 4, 8};
+    int arr[] = {1, 2, 3, 5, 8};
     int s = 0;
     int e = 4;
-    int el = 10;
+    int el = 4;
     int ans = -1;
     while (s <= e)
     {
